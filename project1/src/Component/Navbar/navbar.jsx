@@ -88,9 +88,9 @@ export default function App() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" light bgColor="light">
+    <MDBNavbar expand="lg" light bgColor="dark">
       <MDBContainer fluid>
-        <MDBNavbarBrand href="#">Brand</MDBNavbarBrand>
+        <MDBNavbarBrand href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS04zpL4R7AWa1SQZNLMdkcO_1ksnOXRWW3NlzTBvKaxg&s" alt="" srcset="" /></MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"

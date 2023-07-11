@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Carosoul from './Homepage/Carousol.jsx'
 const Home = () => {
     return (
-        <div>
-          Home
-        </div>
+        <>
+          <><Carosoul/></>
+        </>
     );
 };
 

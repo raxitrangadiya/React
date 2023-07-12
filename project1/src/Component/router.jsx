@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import NavCom from "./Navbar/navbar"
 import Home from "./Navbar/Home.jsx";
-import Link from "./Navbar/Link.jsx";
+import Card from "./Navbar/card.jsx";
 import Product from "./Navbar/Product.jsx";
 import Contact from "./Navbar/Contact.jsx";
 import Accessories from "./Navbar/Accessories.jsx";
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
         element: <><NavCom/><Home /></>,
     },
     {
-        path:"/link",
-        element:<><NavCom/><Link/></>
+        path:"/card",
+        element:<><NavCom/><Card/></>
     },
     {
         path:"/product",

@@ -74,12 +74,12 @@ import {
   MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
-  MDBNavbarLink,
+  // MDBNavbarLink,
   MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
+  // MDBDropdown,
+  // MDBDropdownToggle,
+  // MDBDropdownMenu,
+  // MDBDropdownItem,
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
@@ -88,7 +88,7 @@ export default function App() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
-    <MDBNavbar   expand="lg" light bgColor="light"  >
+    <MDBNavbar  sticky    expand="lg" light bgColor="light"  >
       <MDBContainer fluid >
         <MDBNavbarBrand href="#">Navbar</MDBNavbarBrand>
 
@@ -109,8 +109,8 @@ export default function App() {
               </Link>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <Link className="nav-link" active aria-current="page" to="/link">
-                Link
+              <Link className="nav-link" active aria-current="page" to="/card">
+                Card
               </Link>
             </MDBNavbarItem>
             <MDBNavbarItem>

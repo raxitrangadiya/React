@@ -1,41 +1,57 @@
-import React from 'react';
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-} from 'mdb-react-ui-kit';
-
-export default function App() {
-  return (
-    <MDBCarousel showIndicators showControls fade>
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg'
-        alt='...'
-      >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg'
-        alt='...'
-      >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
-        itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg'
-        alt='...'
-      >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </MDBCarouselItem>
-    </MDBCarousel>
-  );
+import "slick-slider/slick/slick.css";
+import "slick-slider/slick/slick-theme.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
+export default class AutoPlay extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 9000,
+      autoplaySpeed: 3000,
+      cssEase: "linear"
+    };
+    return (
+      <div>
+       
+        <Slider {...settings}>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+          <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          </div>
+        
+         
+        
+          
+        
+        </Slider>
+      </div>
+    );
+  }
 }

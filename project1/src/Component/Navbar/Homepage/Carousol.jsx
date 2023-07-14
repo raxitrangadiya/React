@@ -7,49 +7,53 @@ export default class AutoPlay extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       speed: 9000,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 1000,
       cssEase: "linear"
     };
     return (
       <div>
-       
+
         <Slider {...settings}>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
           <div >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgd3f7uJeAJXEMdnEixpFEm89o1Bft1-VMw&usqp=CAU"/>
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
           </div>
-        
-         
-        
-          
-        
+          <div >
+          <img src='https://mdbootstrap.com/img/new/slides/041.webp' className='img-fluid shadow-4' alt='...' />
+          </div>
+
+
+
+
+
+
         </Slider>
       </div>
     );

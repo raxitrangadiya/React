@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import NavCom from "./Navbar/navbar"
 import Home from "./Navbar/Home.jsx";
-import Card from "./Navbar/card.jsx";
+import Card from "./Navbar/Homepage/card/Carddata1";
 import Product from "./Navbar/Product.jsx";
 import Contact from "./Navbar/Contact.jsx";
 import Accessories from "./Navbar/Accessories.jsx";

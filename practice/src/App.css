@@ -1,0 +1,82 @@
+body{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: whitesmoke;
+}
+/* home page start */
+.profileimg{
+    width: 330px;
+    height: 330px;
+    /* position: relative;
+    align-items: center;
+    justify-content: center; */
+}
+.profileimg>img{
+    width: 100%;
+    display: block;
+}
+.text-data{
+    display: flex;
+    /* font-size: 100px; */
+    flex-direction: column;
+}
+.write span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+}
+.write{
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    overflow: hidden;
+}
+  p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 4px;
+    animation: blink 1s infinite;
+  }
+   p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+/* home page end */
+/* loader start */
+.custom-loader {
+  width: 100px;
+  height: 100px;
+  display: grid;
+}
+.custom-loader::before,
+.custom-loader::after {    
+  content:"";
+  grid-area: 1/1;
+  --c: radial-gradient(farthest-side,#766DF4 92%,#0000);
+  background: 
+    var(--c) 50%  0, 
+    var(--c) 50%  100%, 
+    var(--c) 100% 50%, 
+    var(--c) 0    50%;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  animation: s2 2s infinite;
+}
+.custom-loader::before {
+margin:8px;
+filter:hue-rotate(45deg);
+background-size: 16px 16px;
+animation-timing-function: linear
+}
+
+@keyframes s2{ 
+100%{transform: rotate(.5turn)}
+}
+/* loader end */

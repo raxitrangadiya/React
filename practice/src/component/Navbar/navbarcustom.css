@@ -1,0 +1,48 @@
+
+.logo{
+
+    height: 50px;
+    /* padding: var(--padding); */
+    width: 50px;
+    /* animation: loader infinite  2s  */
+    animation: loader 6s linear 0s infinite normal;
+    /* filter: drop-shadow(8px 8px 8px  rgba(255, 255, 255, 0.249)); */
+}
+@keyframes loader {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      border-radius: 50%;
+      rotate: 180deg;
+    }}
+.logo>img{
+    width: 100%;
+    display: block;
+}
+.Nav-link{
+    padding: 0px 10px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.Nav-link:hover{
+    color: whitesmoke;
+}
+.active{
+    color: rgba(242, 115, 174, 0.984) !important ;
+}
+
+.practice{
+    color: black;
+    padding: 0px 10px;
+    font-size: 20px;
+
+}
+.practice:hover{
+    color: black;
+    /* background-color: black; */
+    padding: 0px 10px;
+    font-size: 20px;
+
+}
+

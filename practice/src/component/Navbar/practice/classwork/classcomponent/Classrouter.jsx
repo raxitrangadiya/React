@@ -22,7 +22,10 @@
     import PropsMethod from './PropsMethod.jsx'
     import Lifecycle from './Lifecycle.jsx'
     import Statelifecycleloader from "./Statelifecycleloader.jsx"
+<<<<<<< HEAD
     import Listinclasscomponent from "./Listinclasscomponent.jsx"
+=======
+>>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
 class Classrouter extends Component {
   render() {
     return (
@@ -33,7 +36,10 @@ class Classrouter extends Component {
 <Route path='/propsinclass' element={<PropsMethod/>} />
 <Route path='/lifecycle' element={<Lifecycle/>} />
 <Route path='/statelifecycleloader' element={<Statelifecycleloader/>} />
+<<<<<<< HEAD
 <Route path='/listinclasscomponent' element={<Listinclasscomponent/>} />
+=======
+>>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
 </Route>
       </Routes>
     );

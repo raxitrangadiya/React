@@ -5,17 +5,28 @@ function Functionmenu() {
   return (
     <>
       <div className="row my-5">
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
         <div className="col-lg-6 offset-lg-6 ">
           <ol>
             <li className="fs-3 text-warning "><NavLink to="intro">Function intro</NavLink></li>
             <li className="fs-3 text-warning "><NavLink to="stateinfunctional">State in function component</NavLink></li>
+<<<<<<< HEAD
             <li className="fs-3 text-warning "><NavLink to="propsinfunctional">Props in function component</NavLink></li>
             <li className="fs-3 text-warning "><NavLink to="useeffectinfunctional">Use effect in function component</NavLink></li>
 
           </ol>
         </div>
         <Outlet></Outlet>
+=======
+            
+          </ol>
+        </div>
+      <Outlet></Outlet>
+>>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 let clickHandlerOutside=()=>{
     alert("outside button click")
@@ -29,6 +30,14 @@ const StateinFunction = () => {
             </div>
             </div>   
         </>
+=======
+import React from 'react';
+
+const StateinFunction = () => {
+    return (
+        <div>
+        </div>
+>>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
     );
 };
 

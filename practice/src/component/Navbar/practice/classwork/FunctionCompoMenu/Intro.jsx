@@ -12,6 +12,8 @@ class Intro extends Component {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return &lt;h1&gt;Hello, &#123;props.name&#125;&lt;/h1&gt;; <br />
                     &#125;<br />
                 </blockquote>
+
+                
             </>
         );
     }

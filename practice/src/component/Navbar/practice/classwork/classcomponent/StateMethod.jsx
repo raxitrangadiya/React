@@ -43,7 +43,6 @@ this.setState({counter : value})
         {/* <button onClick={this.clickHandleCustom}>button</button> */}
 
         <div className="row align-items-center">
-<<<<<<< HEAD
             <div className="col-lg-12 d-flex align-items-center  justify-content-center" >
                 <button className="btn btn-outline-success m-2" onClick={this.HandleIncriment}>Like  +</button>
                 <input className="align-item-right text-light text-center bg-danger bg-opacity-10 border border-info rounded" type="text" value={this.state.counter} onChange={this.handleChange} />
@@ -52,16 +51,6 @@ this.setState({counter : value})
            
 
               
-=======
-            <div className="col-lg-6">
-                <button className="btn btn-outline-success m-2" onClick={this.HandleIncriment}>Like  +</button>
-                <button className="btn btn-outline-danger m-2" onClick={this.HandleDecriment}>Deslike  -</button>
-            </div>
-            <div className="col-lg-6 align-item-right ">
-
-                <input className="align-item-right text-light bg-info bg-opacity-10 border border-info rounded" type="number" value={this.state.counter} onChange={this.handleChange} />
-            </div>
->>>>>>> 0f215ed3cc1a9bce9d94d1bff53a913b1bbdfe33
         </div>
       </>
     );

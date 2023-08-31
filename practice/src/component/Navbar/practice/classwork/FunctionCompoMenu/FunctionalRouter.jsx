@@ -21,6 +21,7 @@
         import StateInFunction from './StateinFunction.jsx'
         import PropsInFunction from './PropsinFunction.jsx'
         import UseeffectInFunction from './UseeffectInFunction.jsx'
+        import ApiUseeffectInFunction from './ApiUseeffectInFunction.jsx'
         
 class FunctionalRouter extends Component {
     render() {
@@ -31,6 +32,7 @@ class FunctionalRouter extends Component {
                 <Route path='/stateinfunctional' element={<StateInFunction/>}/>
                 <Route path='/propsinfunctional' element={<PropsInFunction/>}/>
                 <Route path='/useeffectinfunctional' element={<UseeffectInFunction/>}/>
+                <Route path='/apiuseeffectinfunctional' element={<ApiUseeffectInFunction/>}/>
             </Route>
         </Routes>
         );

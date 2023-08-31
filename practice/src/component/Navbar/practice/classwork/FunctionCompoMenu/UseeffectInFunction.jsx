@@ -6,10 +6,11 @@ const UseeffectInFunction = () => {
     // counter
     const [count, setCount] = useState(0);
     console.log("called use effect");
+
     useEffect(() => {
         console.log("called use effect api");
         fetch("https://dummyjson.com/products").then((res) => res.json()).then((result) => {
-            console.log(result.title);
+            console.log(result);
         })
         const intervalId = setInterval(() => {
             setCount(c => c + 1);//pass a state updater 
@@ -18,7 +19,9 @@ const UseeffectInFunction = () => {
             console.log("called returned");
             clearInterval(intervalId)
         }
-    }, [])
+    }, [state])
+
+
 
     return (
         <>

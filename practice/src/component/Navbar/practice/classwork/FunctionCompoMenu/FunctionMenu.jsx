@@ -11,6 +11,7 @@ function Functionmenu() {
             <li className="fs-3 text-warning "><NavLink to="stateinfunctional">State in function component</NavLink></li>
             <li className="fs-3 text-warning "><NavLink to="propsinfunctional">Props in function component</NavLink></li>
             <li className="fs-3 text-warning "><NavLink to="useeffectinfunctional">Use effect in function component</NavLink></li>
+            <li className="fs-3 text-warning "><NavLink to="apiuseeffectinfunctional">Api Use effect in function component</NavLink></li>
 
           </ol>
         </div>

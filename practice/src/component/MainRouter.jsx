@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { Route, Routes, createBrowserRouter } from "react-router-dom";
 import Navbar from './Navbar/Navbar.jsx'
 import Home from './Navbar/Home.jsx'
 import Skill from './Navbar/Skill.jsx'
@@ -52,6 +52,7 @@ const router = createBrowserRouter([
         }
        ]
     },
+   
     // {
     //     path: "/mywork",
     //     element: <><Navbar /><Mywork /></>,

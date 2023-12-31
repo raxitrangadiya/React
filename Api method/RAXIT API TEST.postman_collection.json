@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "b28cc3bb-1d35-4438-8ee3-cba17d3edf50",
+		"name": "RAXIT API TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29624741"
+	},
+	"item": [
+		{
+			"name": "add users by post method",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n      \"name\": \"admin\",\r\n      \"password\": \"admin123\",\r\n      \"email\": \"admin@gmail.com\",\r\n      \"gender\": \"female\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users"
+					]
+				},
+				"description": "http://localhost:3004/users"
+			},
+			"response": []
+		},
+		{
+			"name": "get users by get method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users"
+					]
+				},
+				"description": "http://localhost:3004/users"
+			},
+			"response": []
+		},
+		{
+			"name": "get user data by using query string method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/users?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				},
+				"description": "http://localhost:3004/users?id=1"
+			},
+			"response": []
+		},
+		{
+			"name": "patch_select_usersBy id patch method",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3004/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users",
+						"2"
+					]
+				},
+				"description": "http://localhost:3004/users/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Update data by ID put method",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"raxit\",\r\n    \"password\": \"raxit123\",\r\n    \"email\": \"raxit@gmail.com\",\r\n    \"gender\": \"male\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users",
+						"1"
+					]
+				},
+				"description": "http://localhost:3004/users/1"
+			},
+			"response": []
+		},
+		{
+			"name": "delete data by using id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"niru\",\r\n        \"password\": \"niru123\",\r\n        \"email\": \"niru@gmail.com\",\r\n        \"gender\": \"female\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3004/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3004",
+					"path": [
+						"users",
+						"2"
+					]
+				},
+				"description": "http://localhost:3004/users/2"
+			},
+			"response": []
+		}
+	]
+}
